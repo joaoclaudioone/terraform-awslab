@@ -33,6 +33,9 @@ override.tf.json
 .terraformrc
 terraform.rc
 
+# HCL files
+*.hcl
+
 # Ignore keys directories
 **/keys
 
