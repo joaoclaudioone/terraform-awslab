@@ -6,6 +6,7 @@ This repository has two modules that create VPC and EC2 instances.
 |----------------|
 | AWS Credentials to create the resources |
 | Terraform 0.14.x |
+| SSH keys |
  
 ## Example
 inside the infra directory you could check for a basic usage. That will create the vpc and two EC2 , one in the public subnet and other in a private subnet

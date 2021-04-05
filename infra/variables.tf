@@ -12,7 +12,7 @@ variable "tags" {
   type         = map(string)
   default = {
     terraform  = "true"
-    repository = "" # git config --get remote.origin.url
+    repository = "git@github.com:joaoclaudioone/terraform-awslab.git"
   }
 }
 
